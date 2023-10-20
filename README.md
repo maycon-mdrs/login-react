@@ -34,6 +34,29 @@ Para simular um processo de login, você pode fazer uma solicitação POST para 
 ```
 Da mesma forma, a API responderá com uma resposta JSON simulada, indicando se o login foi bem-sucedido ou não. E também segue a mesma ideia, só é possível fazer login com as informações acima, qualquer outra informação não será possível para simular o login.
 
+
+# 🖥️ INTERFACES
+### Tela de cadastro
+<p align-items="center">
+    <img src="./assets/images/cadastro_tela.jpeg">
+</p>
+
+<p align-items="center">
+    <img src="./assets/images/cadastro_ok.png" height="300px">
+    <img src="./assets/images/erro_cadastro.png" height="300px">
+    <img src="./assets/images/cadastro_coincidem.png" height="300px">
+    <img src="./assets/images/cadastro_senha.png" height="300px">
+</p>
+
+### Tela de login
+<p align-items="center">
+    <img src="./assets/images/login_tela.jpeg">
+</p>
+
+<p align-items="center">
+    <img src="./assets/images/erro_login.png" height="300px">
+</p>
+ 
 # 🎲 Rodando o código
 
 ```bash
