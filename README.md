@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# SOBRE O PROJETO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto é uma aplicação web desenvolvida em React com Typescript que se concentra em fornecer funcionalidades de login e cadastro de usuários. Para gerenciar a autenticação, o projeto utiliza o "auth provider" (provedor de autenticação), que é uma técnica comum para gerenciar o estado da autenticação e fornecer acesso a rotas específicas da aplicação com base na autenticação.
 
-## Available Scripts
+O acesso ao login e cadastro é feito por meio de solicitações HTTP a um serviço fictício chamado "https://reqres.in/".
 
-In the project directory, you can run:
+# Acesso ao Login & Cadastro
 
-### `npm start`
+O site "https://reqres.in/" é um serviço online que fornece uma API pública de exemplo para fins de desenvolvimento e testes. Ele não é um serviço real de produção, mas sim um serviço fictício usado para demonstrar e testar solicitações HTTP e interações com uma API. O objetivo principal do Reqres é permitir que os desenvolvedores pratiquem e testem chamadas de API em uma variedade de métodos (GET, POST, PUT, DELETE) e verifiquem como as respostas são manipuladas. Dessa forma, fornece exemplos de endpoints para simular as operações de login e cadastro.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Registro (Cadastro):
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Para simular um processo de registro (cadastro), é feito uma solicitação POST para o endpoint "https://reqres.in/api/register" fornecendo um objeto JSON com os dados do usuário, com e-mail e senha:
 
-### `npm test`
+`POST https://reqres.in/api/register`
+```Json
+{
+  "email": "eve.holt@reqres.in",
+  "password": "pistol"
+}
+```
+A API responderá com uma resposta JSON simulada, indicando se o registro foi bem-sucedido ou não. Para ser "bem-sucedido" basta inserir as informações acima, qualquer outra informação não será possível para simular o cadastro.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Login:
 
-### `npm run build`
+Para simular um processo de login, você pode fazer uma solicitação POST para o endpoint "https://reqres.in/api/login" fornecendo um objeto JSON com os dados de login, como email e senha:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`POST https://reqres.in/api/login`
+```Json
+{
+  "email": "eve.holt@reqres.in",
+  "password": "cityslicka"
+}
+```
+Da mesma forma, a API responderá com uma resposta JSON simulada, indicando se o login foi bem-sucedido ou não. E também segue a mesma ideia, só é possível fazer login com as informações acima, qualquer outra informação não será possível para simular o login.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 🎲 Rodando o código
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone este repositório
+$ git clone <https://github.com/maycon-mdrs/login-react>
 
-### `npm run eject`
+# Acesse a pasta do projeto
+$ cd login-react
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+$ npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Execute a aplicação em modo de desenvolvimento
+$ npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Acesse <http://localhost:3000>
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# 🛠 Tecnologias
 
-## Learn More
+As seguintes ferramentas foram usadas na construção do projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [React](https://pt-br.reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Node.js](https://nodejs.org/en/)
+- [AntDesign](https://ant.design/)
+- [BootStrap](https://getbootstrap.com/)
