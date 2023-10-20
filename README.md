@@ -61,3 +61,13 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Node.js](https://nodejs.org/en/)
 - [AntDesign](https://ant.design/)
 - [BootStrap](https://getbootstrap.com/)
+
+# Autor
+
+<a href="https://github.com/maycon-mdrs" style= "float: left">
+    <div style="display: flex; flex-direction: column; align-items: center">
+        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/81583731?v=4" width="100px;" alt=""/>
+        <br />
+        <sub><b>Maycon Douglas Rêgo Santos 🚀</b></sub>
+    </div>
+</a>
