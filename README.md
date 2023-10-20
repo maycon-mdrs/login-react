@@ -65,9 +65,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 # Autor
 
 <a href="https://github.com/maycon-mdrs" style= "float: left">
-    <div style="display: flex; flex-direction: column; align: center">
+    <div style="display: flex; flex-direction: column; align-items
+    : center">
         <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/81583731?v=4" width="100px;" alt=""/>
         <br />
-        <sub><b>Maycon Douglas Rêgo Santos 🚀</b></sub>
+        <strong>Maycon Douglas Rêgo Santos 🚀</strong>
     </div>
 </a>
