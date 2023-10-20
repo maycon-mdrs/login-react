@@ -67,7 +67,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <a href="https://github.com/maycon-mdrs" style= "float: left">
     <div style="display: flex; flex-direction: column; align-items
     : center">
-        <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/81583731?v=4" width="100px;" alt=""/>
+        <img style="width: 150px; border-radius: 50%;" src="https://avatars.githubusercontent.com/u/81583731?v=4" alt=""/>
         <br />
         <strong>Maycon Douglas Rêgo Santos 🚀</strong>
     </div>
